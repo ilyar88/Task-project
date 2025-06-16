@@ -29,7 +29,9 @@ Automated test suite using **C#**, **Selenium WebDriver**, and **NUnit** that si
 
 🎤 **Artist Name:** Gloria Gaynor
 
-## 🧪 Run the Project
+---
+
+### 🧪 Run the Project
 
 ---
 
