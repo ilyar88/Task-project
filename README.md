@@ -24,8 +24,6 @@ Automated test suite using **C#**, **Selenium WebDriver**, and **NUnit** that si
 
 ## 📸 Sample Output
 
-⚙️ **WebDriverManager** for managing browser drivers
-
 🎬 **Found target video** https://www.youtube.com/watch?v=ybXrrTX3LuI
 
 📺 **Channel** GloriaGaynorMusic
