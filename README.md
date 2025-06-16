@@ -23,7 +23,8 @@ Automated test suite using **C#**, **Selenium WebDriver**, and **NUnit** that si
 🧪 NUnit for test framework
 
 ## 📸 Sample Output
-⚙️ WebDriverManager for managing browser drivers
-🎬 Found target video: https://www.youtube.com/watch?v=ybXrrTX3LuI
-📺 Channel: GloriaGaynorMusic
-🎤 Artist Name: Gloria Gaynor
+
+⚙️ **WebDriverManager** for managing browser drivers
+🎬 **Found target video** https://www.youtube.com/watch?v=ybXrrTX3LuI
+📺 **Channel** GloriaGaynorMusic
+🎤 **Artist Name** Gloria Gaynor
