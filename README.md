@@ -2,7 +2,7 @@
 
 Automated test suite using **C#**, **Selenium WebDriver**, and **NUnit** that simulates user behavior on [YouTube](https://www.youtube.com). The suite searches for a video, plays it, skips ads, and extracts the artist's name from the video description.
 
----
+✅ Make sure you install the [.NET SDK]([https://www.jetbrains.com/pycharm/download/?section=windows](https://dotnet.microsoft.com/en-us/download)) before running the automation.
 
 ## ✨ Features
 
@@ -10,8 +10,6 @@ Automated test suite using **C#**, **Selenium WebDriver**, and **NUnit** that si
 - 🎯 **Locate & Play** a specific video using its unique ID  
 - ⏭️ **Skip Ads** automatically when they appear  
 - 🧠 **Extract Artist Name** from the expanded video description  
-
----
 
 ✅ Supported Browsers: chrome, firefox, edge
 
@@ -22,8 +20,6 @@ Automated test suite using **C#**, **Selenium WebDriver**, and **NUnit** that si
 🌐 Selenium WebDriver
 
 🧪 NUnit for test framework
-
----
 
 ## 📸 Sample Output
 
@@ -37,9 +33,18 @@ Automated test suite using **C#**, **Selenium WebDriver**, and **NUnit** that si
 
 Follow these steps to restore, build, and run the tests:
 
----
-
 ### 🔧 Step 1: Restore Packages
 
 ```bash
 dotnet restore
+
+🛠 Step 2: Build the Project
+
+```bash
+dotnet build
+
+🧪 Step 3: Run the Test for SeleniumTests folder
+
+```bash
+dotnet test
+
