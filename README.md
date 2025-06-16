@@ -29,19 +29,17 @@ Automated test suite using **C#**, **Selenium WebDriver**, and **NUnit** that si
 
 🎤 **Artist Name:** Gloria Gaynor
 
-## 🚀 How to Run the Project
-
-Follow these steps to restore, build, and run the tests:
-
-### 🔧 Step 1: Restore Packages
+## 🧪 Run the Project
 
 ```bash
+# Step 1: Restore packages
 dotnet restore
 
-🛠 Step 2: Build the Project
-
-```bash
+# Step 2: Build the project
 dotnet build
+
+# Step 3: Run the tests
+dotnet test
 
 🧪 Step 3: Run the Test for SeleniumTests folder
 
