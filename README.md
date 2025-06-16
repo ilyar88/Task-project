@@ -2,7 +2,7 @@
 
 Automated test suite using **C#**, **Selenium WebDriver**, and **NUnit** that simulates user behavior on [YouTube](https://www.youtube.com). The suite searches for a video, plays it, skips ads, and extracts the artist's name from the video description.
 
-✅ Make sure you install the [.NET SDK]([https://www.jetbrains.com/pycharm/download/?section=windows](https://dotnet.microsoft.com/en-us/download)) before running the automation.
+✅ Make sure you install the [.NET SDK](https://dotnet.microsoft.com/en-us/download) before running the automation.
 
 ## ✨ Features
 
