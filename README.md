@@ -29,7 +29,7 @@ Supported browsers: chrome, firefox, edge.
 
 🧰 Tech Stack
 
-- **C#**
+**C#**
 - **Selenium WebDriver**
 - **NUnit**
 - **WebDriverManager**
