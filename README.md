@@ -1,23 +1,23 @@
 # 🎵 Selenium YouTube Test Suite
 
-This project automates interaction with **YouTube** using **Selenium WebDriver** in C#. It simulates user actions such as searching for a video, playing a specific video, skipping ads, and extracting the artist name from the video description.
+Automated test suite using **C#**, **Selenium WebDriver**, and **NUnit** that simulates user behavior on [YouTube](https://www.youtube.com). The suite searches for a video, plays it, skips ads, and extracts the artist's name from the video description.
 
-### 🚀 Features
+---
 
-- ✅ Search for a YouTube video
-- 🎯 Locate and play a specific video using its ID
-- ⏭️ Automatically skip ads
-- 🧠 Extract the artist's name from the description
+## ✨ Features
 
-## 🧪 Test Scenarios
+- 🔍 **Search** for a music video with custom filters  
+- 🎯 **Locate & Play** a specific video using its unique ID  
+- ⏭️ **Skip Ads** automatically when they appear  
+- 🧠 **Extract Artist Name** from the expanded video description  
 
-1. **SearchForSong** - Searches for a music video with filters.
-2. **FindAndPlaySpecificVideo** - Identifies and plays a target video by ID.
-3. **FindArtistName** - Expands the description and extracts the artist’s name.
+---
+
+---
 
 ## ⚙️ Configuration
 
-Modify `configuration/data.xml` to customize:
+Edit the XML config at: `configuration/data.xml`
 
 ```xml
 <Settings>
@@ -25,30 +25,3 @@ Modify `configuration/data.xml` to customize:
   <WaitTime>10</WaitTime>
   <Url>https://www.youtube.com/</Url>
 </Settings>
-Supported browsers: chrome, firefox, edge.
-
-🧰 Tech Stack
-
-**C#**
-- **Selenium WebDriver**
-- **NUnit**
-- **WebDriverManager**
-
-📸 Sample Output
-
-Found target video: https://www.youtube.com/watch?v=ybXrrTX3LuI
-user/channel: GloriaGaynorMusic
-The artist name is: Gloria Gaynor
-💡 How to Run
-Make sure you have .NET and your desired browser installed.
-
-Restore dependencies and build:
-
-dotnet restore
-dotnet build
-
-Run tests:
-dotnet test
-
-
-
