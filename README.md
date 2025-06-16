@@ -14,7 +14,6 @@ Automated test suite using **C#**, **Selenium WebDriver**, and **NUnit** that si
 ---
 
 ✅ Supported Browsers: chrome, firefox, edge
-⏱️ WaitTime is in seconds and controls element wait behavior.
 
 🧰 Tech Stack
 💻 C#
