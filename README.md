@@ -32,3 +32,14 @@ Automated test suite using **C#**, **Selenium WebDriver**, and **NUnit** that si
 📺 **Channel:** nikki7993
 
 🎤 **Artist Name:** Gloria Gaynor
+
+## 🚀 How to Run the Project
+
+Follow these steps to restore, build, and run the tests:
+
+---
+
+### 🔧 Step 1: Restore Packages
+
+```bash
+dotnet restore
