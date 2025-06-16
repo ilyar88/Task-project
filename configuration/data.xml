@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Settings>
+  <Browser>chrome</Browser>
+  <WaitTime>10</WaitTime>
+  <Url>https://www.youtube.com/</Url>
+</Settings>
