@@ -13,8 +13,6 @@ Automated test suite using **C#**, **Selenium WebDriver**, and **NUnit** that si
 
 ---
 
----
-
 ## ⚙️ Configuration
 
 Edit the XML config at: `configuration/data.xml`
