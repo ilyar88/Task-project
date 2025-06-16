@@ -26,6 +26,6 @@ Automated test suite using **C#**, **Selenium WebDriver**, and **NUnit** that si
 
 🎬 **Found target video** https://www.youtube.com/watch?v=ybXrrTX3LuI
 
-📺 **Channel** GloriaGaynorMusic
+📺 **Channel** nikki7993
 
 🎤 **Artist Name** Gloria Gaynor
