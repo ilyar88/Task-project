@@ -16,6 +16,7 @@ Automated test suite using **C#**, **Selenium WebDriver**, and **NUnit** that si
 ✅ Supported Browsers: chrome, firefox, edge
 
 🧰 Tech Stack
+
 💻 C#
 
 🌐 Selenium WebDriver
