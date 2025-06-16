@@ -31,8 +31,9 @@ Automated test suite using **C#**, **Selenium WebDriver**, and **NUnit** that si
 
 ### 🧪 Run the Project
 
+
+Step 1: Restore packages
 ```bash
-# Step 1: Restore packages
 dotnet restore
 
 # Step 2: Build the project
