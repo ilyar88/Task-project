@@ -105,3 +105,4 @@ E:\Projects\Automation\Task project\SeleniumTests\obj\Debug\net9.0\SeleniumTests
 E:\Projects\Automation\Task project\SeleniumTests\obj\Debug\net9.0\SeleniumTests.genruntimeconfig.cache
 E:\Projects\Automation\Task project\SeleniumTests\obj\Debug\net9.0\ref\SeleniumTests.dll
 E:\Projects\Automation\Task project\SeleniumTests\bin\Debug\net9.0\SeleniumExtras.WaitHelpers.dll
+E:\Projects\Automation\Task project\SeleniumTests\obj\Debug\net9.0\SeleniumTests.sourcelink.json
