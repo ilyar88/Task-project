@@ -11,29 +11,29 @@ namespace PageObjects
         {
             _driver = driver;
         }
-        // Elements
+        
         public IWebElement search_text()
         {
             return _driver.FindElement(By.CssSelector("input[role='combobox']"));
         }
         public IWebElement search_icon()
         {
-            return _driver.FindElement(By.CssSelector("yt-searchbox[role='search'] > button[title='Search']"));
+            return _driver.FindElement(By.CssSelector("button[title='Search']"));
         }
 
         public IWebElement filters()
         {
-            return _driver.FindElement(By.CssSelector("#filter-button .yt-spec-touch-feedback-shape__fill"));
+            return _driver.FindElement(By.CssSelector("#filter-button"));
         }
 
         public IWebElement video()
         {
-            return _driver.FindElement(By.CssSelector("[title='Search for Video'] yt-formatted-string"));
+            return _driver.FindElement(By.CssSelector("[title='Search for Video']"));
         }
 
         public IWebElement view_count()
         {
-            return _driver.FindElement(By.CssSelector("[title='Sort by view count'] yt-formatted-string"));
+            return _driver.FindElement(By.CssSelector("[title='Sort by view count']"));
         }
 
         public IReadOnlyCollection<IWebElement> video_cards()

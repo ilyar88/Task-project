@@ -5,7 +5,9 @@ using OpenQA.Selenium.Edge;
 using WebDriverManager;
 using WebDriverManager.DriverConfigs.Impl;
 using System.Xml.Linq;
-using System.Linq;
+using System.IO;
+using System;
+using NUnit.Framework;
 
 namespace Conftest
 {
@@ -61,12 +63,9 @@ namespace Conftest
         [OneTimeTearDown]
         public void Cleanup()
         {
-            // Wait for 2 seconds before closing the browser
-            System.Threading.Thread.Sleep(2000);
-
-            // Quit and dispose the WebDriver instance
-            driver?.Quit();
-            driver?.Dispose();
+            // Close the browser and clean up the driver
+            if (driver != null)
+                driver.Dispose();
         }
 
         // Helper method to read configuration values from XML

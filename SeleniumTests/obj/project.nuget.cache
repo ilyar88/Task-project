@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "GOLH6qkdI1g=",
+  "dgSpecHash": "SHPEvOlLtjk=",
   "success": true,
   "projectFilePath": "E:\\Projects\\Automation\\Task project\\SeleniumTests\\SeleniumTests.csproj",
   "expectedPackageFiles": [
@@ -17,6 +17,7 @@
     "C:\\Users\\irahm\\.nuget\\packages\\nunit\\4.2.2\\nunit.4.2.2.nupkg.sha512",
     "C:\\Users\\irahm\\.nuget\\packages\\nunit.analyzers\\4.4.0\\nunit.analyzers.4.4.0.nupkg.sha512",
     "C:\\Users\\irahm\\.nuget\\packages\\nunit3testadapter\\4.6.0\\nunit3testadapter.4.6.0.nupkg.sha512",
+    "C:\\Users\\irahm\\.nuget\\packages\\selenium.support\\4.33.0\\selenium.support.4.33.0.nupkg.sha512",
     "C:\\Users\\irahm\\.nuget\\packages\\selenium.webdriver\\4.33.0\\selenium.webdriver.4.33.0.nupkg.sha512",
     "C:\\Users\\irahm\\.nuget\\packages\\selenium.webdriver.chromedriver\\137.0.7151.7000\\selenium.webdriver.chromedriver.137.0.7151.7000.nupkg.sha512",
     "C:\\Users\\irahm\\.nuget\\packages\\sharpziplib\\1.4.2\\sharpziplib.1.4.2.nupkg.sha512",

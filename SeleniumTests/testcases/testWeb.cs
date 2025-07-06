@@ -1,13 +1,13 @@
 ﻿using Conftest;
 using NUnit.Framework;
 using OpenQA.Selenium;
-using OpenQA.Selenium.Support.UI;
+using Conftest;
 using Workflows;
 using System;
 
 namespace SeleniumTests
 {
-    public class testWeb : BaseTest
+    public class TestWeb : BaseTest
     {
         private WebFlows webFlows;
 
@@ -27,7 +27,14 @@ namespace SeleniumTests
         public void FindAndPlaySpecificVideo()
         {
             webFlows.FindVideoFlow("ybXrrTX3LuI");
-            webFlows.SkipAds();
+            try
+            {
+                webFlows.SkipAds();
+            }
+            catch (NoSuchElementException)
+            {
+                TestContext.WriteLine("Skip Ad element not found.");
+            }
         }
 
         [Test, Order(3)]
